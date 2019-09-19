@@ -3,13 +3,13 @@ Implementation of an interpreter for the Beatnik esoteric programming language i
 
 ## About
 
-As described on Wikipedia [1]:
+As described on [Wikipedia](https://en.wikipedia.org/wiki/Beatnik_\(programming_language\)):
 
 > Beatnik is a simple stack-based esoteric programming language, by Cliff L. Biffle. A beatnik program consists of any sequence of English words. Each word is assigned the score you would get for it in a Scrabble game. The value of the score determines what function is performed. Functions include pushing the score of the next word onto the stack, testing the stack and skipping forward or backward in the program and other stack operations.
 
 ## Example
 
-From esolangs.org. A valid Beatnik program (found in `beatnik-esolang-example.txt`):
+From [esolangs.org](https://esolangs.org/wiki/Beatnik). A valid Beatnik program (found in `beatnik-esolang-example.txt`):
 
 ```
 Hello, aunts! Around, around, swim!
