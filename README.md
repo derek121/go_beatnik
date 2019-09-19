@@ -15,9 +15,9 @@ From [esolangs.org](https://esolangs.org/wiki/Beatnik). A valid Beatnik program 
 Hello, aunts! Around, around, swim!
 ```
 
-The code contains trace output to monitor the execution- what operation is run, the state of the stack, etc. This program executes as follows:
+> The code contains trace output to monitor the execution- what operation is run, the state of the stack, etc. This program executes as follows:
 
-> Input a character, take its ASCII value, add 7 to it, and output the corresponding ASCII character. For example, if the input character is A, the output character will be H.
+>> Input a character, take its ASCII value, add 7 to it, and output the corresponding ASCII character. For example, if the input character is A, the output character will be H.
 
 The `A` and the `H` may be seen in the output below.
 
