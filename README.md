@@ -5,7 +5,7 @@ Implementation of an interpreter for the Beatnik esoteric programming language i
 
 As described on Wikipedia [1]:
 
-    Beatnik is a simple stack-based esoteric programming language, by Cliff L. Biffle. A beatnik program consists of any sequence of English words. Each word is assigned the score you would get for it in a Scrabble game. The value of the score determines what function is performed. Functions include pushing the score of the next word onto the stack, testing the stack and skipping forward or backward in the program and other stack operations.
+> Beatnik is a simple stack-based esoteric programming language, by Cliff L. Biffle. A beatnik program consists of any sequence of English words. Each word is assigned the score you would get for it in a Scrabble game. The value of the score determines what function is performed. Functions include pushing the score of the next word onto the stack, testing the stack and skipping forward or backward in the program and other stack operations.
 
 ## Example
 
@@ -17,9 +17,7 @@ Hello, aunts! Around, around, swim!
 
 The code contains trace output to monitor the execution- what operation is run, the state of the stack, etc. This program executes as follows:
 
-```
-Input a character, take its ASCII value, add 7 to it, and output the corresponding ASCII character. For example, if the input character is A, the output character will be H.
-```
+> Input a character, take its ASCII value, add 7 to it, and output the corresponding ASCII character. For example, if the input character is A, the output character will be H.
 
 The `A` and the `H` may be seen in the output below.
 
