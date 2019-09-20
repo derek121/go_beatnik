@@ -74,11 +74,9 @@ const opStop = 17
 func main() {
 	var words []string
 	words = readProgWords()
-	// fmt.Printf("%d %v\n", len(words), words)
 
 	var scores []int
 	scores = getScores(words)
-	//fmt.Printf("%d %T %v\n", len(scores), scores[0], scores)
 
 	run(scores)
 }
@@ -87,8 +85,6 @@ func run(prog []int) {
 	var i int
 	var stack []int
 	var top, next int
-
-	// TODO: less or greater than the consts
 
 FOR:
 	for i < len(prog) {
@@ -223,7 +219,6 @@ FOR:
 			if prog[i] > 23 {
 				fmt.Printf("Beatnik applause, man... (%d)\n", prog[i])
 			} else {
-				// log.Fatalf("Illegal score: %d", prog[i])
 				fmt.Printf("Unsupported score: %d\n", prog[i])
 			}
 		} // case
@@ -247,14 +242,11 @@ func getScores(words []string) []int {
 
 	for _, word := range words {
 		// TODO: type of word[0] is unit8, but type of letter below is int32. ???
-		// fmt.Println("Word: " + word)
 
 		var score int
 		for _, letter := range word {
 			score += wordVals[letter]
-			//fmt.Printf("Letter: %v %d\n", letter, wordVals[letter])
 		}
-		// fmt.Printf("Score: %d\n", score)
 		scores = append(scores, score)
 	}
 
