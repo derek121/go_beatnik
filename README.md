@@ -36,7 +36,7 @@ Stack at end: []
 $
 ```
 
-Further examples for each operation may be found in the `src` directory.
+Further examples for each operation may be found in the `samples` directory.
 
 ## References
 
