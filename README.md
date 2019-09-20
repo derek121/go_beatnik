@@ -22,7 +22,7 @@ Hello, aunts! Around, around, swim!
 The `A` and the `H` may be seen in the output below.
 
 ```
-$ ./beatnik beatnik-esolang-example.txt 
+$ ./beatnik samples/beatnik-esolang-example.txt 
 A
 opInputCharPush: 8 65
 Stack: [65]
